@@ -4,11 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>ふじみ | ナレーター ポートフォリオ</title>
-  <!-- よもぎフォント読み込み -->
-  <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet" />
+  <!-- Zen Maru Gothic 読み込み -->
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet" />
   <style>
     * {
-      font-family: 'Yomogi', sans-serif !important;
+      font-family: 'Zen Maru Gothic', sans-serif !important;
       box-sizing: border-box;
     }
     body {
@@ -47,18 +47,15 @@
       background: #ffffff;
       border-radius: 20px;
       box-shadow: 0 6px 12px rgba(0,0,0,0.08);
-      color: #000000;
     }
     h1, h2, h3 {
       text-align: center;
       margin-bottom: 20px;
-      color: #000000;
     }
     .intro {
       text-align: center;
       font-size: 1.2em;
       margin-bottom: 40px;
-      color: #000000;
     }
     .profile-photo {
       display: block;
@@ -71,7 +68,6 @@
     }
     .audio-sample {
       margin: 30px 0;
-      color: #000000;
     }
     audio {
       width: 100%;
@@ -88,11 +84,9 @@
     ul {
       list-style: none;
       padding: 0;
-      color: #000000;
     }
     li {
       margin: 8px 0;
-      color: #000000;
     }
     a.email, a.sns {
       color: #000000;
@@ -135,7 +129,7 @@
 <section id="profile">
   <h2>プロフィール</h2>
   <img src="your-photo.jpg" alt="プロフィール写真" class="profile-photo" />
-  <p>ナレーター歴○年。柔らかく落ち着いた声質を活かし、企業VP・CM・Web動画・教材ナレーションなど多数担当。</p>
+  <p>ナレーター歴○年。柔らかく落ち着いた声質を活かし、企業VP・CM・Web動画・教材ナレーションなど多数担当。自宅録音環境も完備し、迅速な納品が可能です。</p>
 
   <h3>使用機材</h3>
   <ul>
@@ -177,4 +171,17 @@
   <h2>お問い合わせ</h2>
   <p>お仕事のご依頼・ご相談は下記よりお気軽にご連絡ください。</p>
   <ul>
-    <li>📧 メールア
+    <li>📧 メールアドレス：<a href="mailto:yourmail@example.com" class="email">yourmail@example.com</a></li>
+    <li>📱 SNS：
+      <a href="https://twitter.com/yourname" target="_blank" class="sns">Twitter</a> /
+      <a href="https://instagram.com/yourname" target="_blank" class="sns">Instagram</a>
+    </li>
+  </ul>
+</section>
+
+<footer>
+  <p>&copy; 2025 ふじみ All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
