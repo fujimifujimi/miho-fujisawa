@@ -4,12 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ふじみ | ナレーター ポートフォリオ</title>
-<link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
   <style>
     body {
-body {
-  font-family: 'Yomogi', sans-serif;
-}
+      font-family: 'Yomogi', sans-serif;
       margin: 0;
       padding: 0;
       background: #ffffff;
@@ -125,7 +123,7 @@ body {
 <section id="profile">
   <h2>プロフィール</h2>
   <img src="your-photo.jpg" alt="プロフィール写真" class="profile-photo">
-  <p>ナレーター歴○年。柔らかく落ち着いた声質を活かし、企業VP・CM・Web動画・教材ナレーションなど多数担当。</p>
+  <p>ナレーター歴○年。柔らかく落ち着いた声質を活かし、企業VP・CM・Web動画・教材ナレーションなど多数担当。自宅録音環境も完備し、迅速な納品が可能です。</p>
 
   <h3>使用機材</h3>
   <ul>
