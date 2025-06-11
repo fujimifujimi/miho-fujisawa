@@ -34,7 +34,7 @@
       transition: color 0.3s;
     }
     nav a:hover {
-      color: #e91e63; /* 濃いピンク */
+      color: #e91e63;
     }
     section {
       max-width: 900px;
@@ -98,7 +98,7 @@
     }
     a.email:hover, a.sns:hover {
       text-decoration: underline;
-      color: #e91e63; /* 濃いピンク */
+      color: #e91e63;
     }
     @media (max-width: 600px) {
       nav a {
