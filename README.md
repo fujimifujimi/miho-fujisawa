@@ -4,10 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>ふじみ | ナレーター ポートフォリオ</title>
+  <!-- よもぎフォント読み込み -->
   <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet" />
   <style>
+    * {
+      font-family: 'Yomogi', sans-serif !important;
+      box-sizing: border-box;
+    }
     body {
-      font-family: 'Yomogi', sans-serif;
       margin: 0;
       padding: 0;
       background: #ffffff;
@@ -45,7 +49,7 @@
       box-shadow: 0 6px 12px rgba(0,0,0,0.08);
       color: #000000;
     }
-    h1, h2 {
+    h1, h2, h3 {
       text-align: center;
       margin-bottom: 20px;
       color: #000000;
@@ -173,17 +177,4 @@
   <h2>お問い合わせ</h2>
   <p>お仕事のご依頼・ご相談は下記よりお気軽にご連絡ください。</p>
   <ul>
-    <li>📧 メールアドレス：<a href="mailto:yourmail@example.com" class="email">yourmail@example.com</a></li>
-    <li>📱 SNS：
-      <a href="https://twitter.com/yourname" target="_blank" class="sns">Twitter</a> /
-      <a href="https://instagram.com/yourname" target="_blank" class="sns">Instagram</a>
-    </li>
-  </ul>
-</section>
-
-<footer>
-  <p>&copy; 2025 ふじみ All Rights Reserved.</p>
-</footer>
-
-</body>
-</html>
+    <li>📧 メールア
