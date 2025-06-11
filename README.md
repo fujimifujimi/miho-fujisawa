@@ -3,47 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>○○ ○○ | ナレーター ポートフォリオ</title>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  <title>ふじみ | ナレーター ポートフォリオ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Noto Sans JP', sans-serif;
+      font-family: 'Zen Maru Gothic', sans-serif;
       margin: 0;
       padding: 0;
-      background: #f9f9f9;
+      background: #ffffff;
       color: #333;
     }
     header {
-      background: #111;
-      color: #fff;
-      padding: 40px 20px;
+      background: #ffffff;
+      color: #333;
+      padding: 50px 20px;
       text-align: center;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
     }
     nav {
       margin-top: 20px;
     }
     nav a {
       margin: 0 15px;
-      color: #fff;
+      color: #333;
       text-decoration: none;
       font-weight: bold;
+      font-size: 1.1em;
       transition: color 0.3s;
     }
     nav a:hover {
-      color: #f39c12;
+      color: #ff9966;
     }
     section {
       max-width: 900px;
       margin: 60px auto;
-      padding: 0 20px;
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 40px 30px;
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.08);
     }
     h1, h2 {
       text-align: center;
       margin-bottom: 20px;
+    }
+    h2 {
+      color: #ff9966;
     }
     .intro {
       text-align: center;
@@ -57,7 +63,7 @@
       width: 160px;
       height: 160px;
       object-fit: cover;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     }
     .audio-sample {
       margin: 30px 0;
@@ -66,12 +72,13 @@
       width: 100%;
     }
     footer {
-      background: #111;
-      color: #fff;
+      background: #ffffff;
+      color: #999;
       text-align: center;
       padding: 20px;
       margin-top: 80px;
       font-size: 0.9em;
+      border-top: 1px solid #ddd;
     }
     ul {
       list-style: none;
@@ -81,13 +88,18 @@
       margin: 8px 0;
     }
     a.email, a.sns {
-      color: #f39c12;
+      color: #ff9966;
       text-decoration: none;
+      font-weight: bold;
     }
     @media (max-width: 600px) {
       nav a {
         display: block;
         margin: 10px 0;
+      }
+      section {
+        margin: 20px 10px;
+        padding: 20px 15px;
       }
     }
   </style>
@@ -95,7 +107,7 @@
 <body>
 
 <header>
-  <h1>○○ ○○ Official Website</h1>
+  <h1>ふじみ Official Website</h1>
   <nav>
     <a href="#profile">プロフィール</a>
     <a href="#samples">作品紹介</a>
@@ -143,27 +155,4 @@
   <div class="audio-sample">
     <h3>教材ナレーション</h3>
     <audio controls>
-      <source src="sample-edu.mp3" type="audio/mpeg">
-      お使いのブラウザはaudioタグに対応していません。
-    </audio>
-  </div>
-</section>
-
-<section id="contact">
-  <h2>お問い合わせ</h2>
-  <p>お仕事のご依頼・ご相談は下記よりお気軽にご連絡ください。</p>
-  <ul>
-    <li>📧 メールアドレス：<a href="mailto:yourmail@example.com" class="email">yourmail@example.com</a></li>
-    <li>📱 SNS：
-      <a href="https://twitter.com/yourname" target="_blank" class="sns">Twitter</a> /
-      <a href="https://instagram.com/yourname" target="_blank" class="sns">Instagram</a>
-    </li>
-  </ul>
-</section>
-
-<footer>
-  <p>&copy; 2025 ○○ ○○ All Rights Reserved.</p>
-</footer>
-
-</body>
-</html>
+      <source
