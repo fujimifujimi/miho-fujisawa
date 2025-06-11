@@ -116,8 +116,8 @@
 </header>
 
 <section id="top">
-  <h2>「声で心を動かすナレーター」</h2>
-  <p class="intro">CM・企業VP・ドキュメンタリーなど幅広いジャンルで活動中です。</p>
+  <h2>「声で心を届けるナレーター」</h2>
+  <p class="intro">CM・企業VP・ドキュメンタリー・教材ナレーションなど幅広く対応しています。</p>
 </section>
 
 <section id="profile">
@@ -155,4 +155,27 @@
   <div class="audio-sample">
     <h3>教材ナレーション</h3>
     <audio controls>
-      <source
+      <source src="sample-edu.mp3" type="audio/mpeg">
+      お使いのブラウザはaudioタグに対応していません。
+    </audio>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>お問い合わせ</h2>
+  <p>お仕事のご依頼・ご相談は下記よりお気軽にご連絡ください。</p>
+  <ul>
+    <li>📧 メールアドレス：<a href="mailto:yourmail@example.com" class="email">yourmail@example.com</a></li>
+    <li>📱 SNS：
+      <a href="https://twitter.com/yourname" target="_blank" class="sns">Twitter</a> /
+      <a href="https://instagram.com/yourname" target="_blank" class="sns">Instagram</a>
+    </li>
+  </ul>
+</section>
+
+<footer>
+  <p>&copy; 2025 ふじみ All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
