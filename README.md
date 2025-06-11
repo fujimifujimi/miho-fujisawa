@@ -11,11 +11,11 @@
       margin: 0;
       padding: 0;
       background: #ffffff;
-      color: #000000; /* 文字色を黒に */
+      color: #000000; /* 黒文字 */
     }
     header {
-      background: #000000; /* ヘッダーは黒背景 */
-      color: #ffffff;      /* ヘッダーの文字は白 */
+      background: #000000;
+      color: #ffffff;
       padding: 50px 20px;
       text-align: center;
       box-shadow: 0 3px 8px rgba(0,0,0,0.1);
@@ -27,23 +27,23 @@
     }
     nav a {
       margin: 0 15px;
-      color: #ffffff; /* ナビリンクは白 */
+      color: #ffffff;
       text-decoration: none;
       font-weight: bold;
       font-size: 1.1em;
       transition: color 0.3s;
     }
     nav a:hover {
-      color: #dddddd; /* ホバーは薄い白 */
+      color: #bbbbbb; /* ホバーは薄い白グレー */
     }
     section {
       max-width: 900px;
       margin: 60px auto;
       padding: 40px 30px;
-      background: #ffffff; /* セクションは白背景 */
+      background: #ffffff;
       border-radius: 20px;
       box-shadow: 0 6px 12px rgba(0,0,0,0.08);
-      color: #000000; /* セクション文字は黒 */
+      color: #000000;
     }
     h1, h2 {
       text-align: center;
@@ -73,8 +73,8 @@
       width: 100%;
     }
     footer {
-      background: #000000; /* フッターも黒背景 */
-      color: #ffffff;      /* 文字は白 */
+      background: #000000;
+      color: #ffffff;
       text-align: center;
       padding: 20px;
       margin-top: 80px;
@@ -91,13 +91,13 @@
       color: #000000;
     }
     a.email, a.sns {
-      color: #ffffff; /* リンクは白 */
+      color: #ffffff;
       text-decoration: none;
       font-weight: bold;
     }
     a.email:hover, a.sns:hover {
       text-decoration: underline;
-      color: #dddddd; /* ホバーは薄い白 */
+      color: #bbbbbb;
     }
     @media (max-width: 600px) {
       nav a {
