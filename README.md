@@ -14,8 +14,8 @@
       color: #000000; /* 黒文字 */
     }
     header {
-      background: #000000;
-      color: #ffffff;
+      background: #ffffff; /* 白背景 */
+      color: #000000;      /* 黒文字 */
       padding: 50px 20px;
       text-align: center;
       box-shadow: 0 3px 8px rgba(0,0,0,0.1);
@@ -27,14 +27,14 @@
     }
     nav a {
       margin: 0 15px;
-      color: #ffffff;
+      color: #000000; /* 黒リンク */
       text-decoration: none;
       font-weight: bold;
       font-size: 1.1em;
       transition: color 0.3s;
     }
     nav a:hover {
-      color: #bbbbbb; /* ホバーは薄い白グレー */
+      color: #555555; /* ホバーは濃いグレー */
     }
     section {
       max-width: 900px;
@@ -73,13 +73,13 @@
       width: 100%;
     }
     footer {
-      background: #000000;
-      color: #ffffff;
+      background: #ffffff; /* 白背景 */
+      color: #000000;      /* 黒文字 */
       text-align: center;
       padding: 20px;
       margin-top: 80px;
       font-size: 0.9em;
-      border-top: none;
+      border-top: 1px solid #ddd;
     }
     ul {
       list-style: none;
@@ -91,13 +91,13 @@
       color: #000000;
     }
     a.email, a.sns {
-      color: #ffffff;
+      color: #000000; /* 黒リンク */
       text-decoration: none;
       font-weight: bold;
     }
     a.email:hover, a.sns:hover {
       text-decoration: underline;
-      color: #bbbbbb;
+      color: #555555;
     }
     @media (max-width: 600px) {
       nav a {
