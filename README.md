@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>ふじみ | ナレーター ポートフォリオ</title>
-  <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet" />
   <style>
     body {
       font-family: 'Yomogi', sans-serif;
       margin: 0;
       padding: 0;
       background: #ffffff;
-      color: #333;
+      color: #000000; /* 文字色を黒に */
     }
     header {
-      background: #ffffff;
-      color: #333;
+      background: #000000; /* ヘッダーは黒背景 */
+      color: #ffffff;      /* ヘッダーの文字は白 */
       padding: 50px 20px;
       text-align: center;
       box-shadow: 0 3px 8px rgba(0,0,0,0.1);
@@ -27,34 +27,34 @@
     }
     nav a {
       margin: 0 15px;
-      color: #333;
+      color: #ffffff; /* ナビリンクは白 */
       text-decoration: none;
       font-weight: bold;
       font-size: 1.1em;
       transition: color 0.3s;
     }
     nav a:hover {
-      color: #ff9966;
+      color: #dddddd; /* ホバーは薄い白 */
     }
     section {
       max-width: 900px;
       margin: 60px auto;
       padding: 40px 30px;
-      background: #ffffff;
+      background: #ffffff; /* セクションは白背景 */
       border-radius: 20px;
       box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+      color: #000000; /* セクション文字は黒 */
     }
     h1, h2 {
       text-align: center;
       margin-bottom: 20px;
-    }
-    h2 {
-      color: #ff9966;
+      color: #000000; /* 見出しも黒 */
     }
     .intro {
       text-align: center;
       font-size: 1.2em;
       margin-bottom: 40px;
+      color: #000000;
     }
     .profile-photo {
       display: block;
@@ -67,30 +67,37 @@
     }
     .audio-sample {
       margin: 30px 0;
+      color: #000000;
     }
     audio {
       width: 100%;
     }
     footer {
-      background: #ffffff;
-      color: #999;
+      background: #000000; /* フッターも黒背景 */
+      color: #ffffff;      /* 文字は白 */
       text-align: center;
       padding: 20px;
       margin-top: 80px;
       font-size: 0.9em;
-      border-top: 1px solid #ddd;
+      border-top: none;
     }
     ul {
       list-style: none;
       padding: 0;
+      color: #000000;
     }
     li {
       margin: 8px 0;
+      color: #000000;
     }
     a.email, a.sns {
-      color: #ff9966;
+      color: #ffffff; /* リンクは白 */
       text-decoration: none;
       font-weight: bold;
+    }
+    a.email:hover, a.sns:hover {
+      text-decoration: underline;
+      color: #dddddd; /* ホバーは薄い白 */
     }
     @media (max-width: 600px) {
       nav a {
@@ -122,7 +129,7 @@
 
 <section id="profile">
   <h2>プロフィール</h2>
-  <img src="your-photo.jpg" alt="プロフィール写真" class="profile-photo">
+  <img src="your-photo.jpg" alt="プロフィール写真" class="profile-photo" />
   <p>ナレーター歴○年。柔らかく落ち着いた声質を活かし、企業VP・CM・Web動画・教材ナレーションなど多数担当。自宅録音環境も完備し、迅速な納品が可能です。</p>
 
   <h3>使用機材</h3>
@@ -139,7 +146,7 @@
   <div class="audio-sample">
     <h3>CMナレーション</h3>
     <audio controls>
-      <source src="sample-cm.mp3" type="audio/mpeg">
+      <source src="sample-cm.mp3" type="audio/mpeg" />
       お使いのブラウザはaudioタグに対応していません。
     </audio>
   </div>
@@ -147,7 +154,7 @@
   <div class="audio-sample">
     <h3>企業VP</h3>
     <audio controls>
-      <source src="sample-vp.mp3" type="audio/mpeg">
+      <source src="sample-vp.mp3" type="audio/mpeg" />
       お使いのブラウザはaudioタグに対応していません。
     </audio>
   </div>
@@ -155,7 +162,7 @@
   <div class="audio-sample">
     <h3>教材ナレーション</h3>
     <audio controls>
-      <source src="sample-edu.mp3" type="audio/mpeg">
+      <source src="sample-edu.mp3" type="audio/mpeg" />
       お使いのブラウザはaudioタグに対応していません。
     </audio>
   </div>
