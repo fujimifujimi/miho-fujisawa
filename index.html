@@ -1,50 +1,187 @@
-body {
-  font-family: 'Zen Maru Gothic', sans-serif;
-  background: #fff;
-  color: #333;
-  margin: 0;
-  padding: 0 1rem;
-  line-height: 1.7;
-}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ふじみ | ナレーター ポートフォリオ</title>
+  <!-- Zen Maru Gothic 読み込み -->
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      font-family: 'Zen Maru Gothic', sans-serif !important;
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #000000;
+    }
+    header {
+      background: #ffffff;
+      color: #000000;
+      padding: 50px 20px;
+      text-align: center;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #000000;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #e91e63;
+    }
+    section {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 40px 30px;
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+    }
+    h1, h2, h3 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .intro {
+      text-align: center;
+      font-size: 1.2em;
+      margin-bottom: 40px;
+    }
+    .profile-photo {
+      display: block;
+      margin: 20px auto;
+      border-radius: 50%;
+      width: 240px;
+      height: 240px;
+      object-fit: cover;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+    .audio-sample {
+      margin: 30px 0;
+    }
+    audio {
+      width: 100%;
+    }
+    footer {
+      background: #ffffff;
+      color: #000000;
+      text-align: center;
+      padding: 20px;
+      margin-top: 80px;
+      font-size: 0.9em;
+      border-top: 1px solid #ddd;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 8px 0;
+    }
+    a.email, a.sns {
+      color: #000000;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    a.email:hover, a.sns:hover {
+      text-decoration: underline;
+      color: #e91e63;
+    }
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+      section {
+        margin: 20px 10px;
+        padding: 20px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
 
-.header {
-  text-align: center;
-  padding: 2rem 0;
-}
+<header>
+  <h1>ふじみ Official Website</h1>
+  <nav>
+    <a href="#profile">プロフィール</a>
+    <a href="#samples">作品紹介</a>
+    <a href="#contact">お問い合わせ</a>
+  </nav>
+</header>
 
-.profile-photo {
-  width: 180px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
+<section id="top">
+  <h2>「あなたのココロのスキマ　私の声でお埋めします」</h2>
+  <p class="intro">CM・企業VP・ドキュメンタリー・教材ナレーションなど幅広く対応しています。</p>
+</section>
 
-.name {
-  font-size: 2rem;
-  margin: 1rem 0 0.5rem;
-}
+<section id="profile">
+  <h2>プロフィール</h2>
+  <img src="my-photo.jpg" alt="ふじみさんのプロフィール写真" class="profile-photo" />
+  <p>ナレーター歴○年。柔らかく落ち着いた声質を活かし、企業VP・CM・Web動画・教材ナレーションなど多数担当。</p>
 
-.voice-sample {
-  margin-top: 1rem;
-}
+  <h3>使用機材</h3>
+  <ul>
+    <li>マイク：○○○</li>
+    <li>オーディオインターフェース：○○○</li>
+    <li>録音環境：防音ブース完備</li>
+  </ul>
+</section>
 
-section {
-  margin: 2rem auto;
-  max-width: 640px;
-}
+<section id="samples">
+  <h2>作品紹介</h2>
 
-h2 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 0.2rem;
-}
+  <div class="audio-sample">
+    <h3>CMナレーション</h3>
+    <audio controls>
+      <source src="sample-cm.mp3" type="audio/mpeg" />
+      お使いのブラウザはaudioタグに対応していません。
+    </audio>
+  </div>
 
-ul {
-  padding-left: 1.2rem;
-}
+  <div class="audio-sample">
+    <h3>企業VP</h3>
+    <audio controls>
+      <source src="sample-vp.mp3" type="audio/mpeg" />
+      お使いのブラウザはaudioタグに対応していません。
+    </audio>
+  </div>
 
-a {
-  color: #0077cc;
-  text-decoration: none;
-}
+  <div class="audio-sample">
+    <h3>教材ナレーション</h3>
+    <audio controls>
+      <source src="sample-edu.mp3" type="audio/mpeg" />
+      お使いのブラウザはaudioタグに対応していません。
+    </audio>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>お問い合わせ</h2>
+  <p>お仕事のご依頼・ご相談は下記よりお気軽にご連絡ください。</p>
+  <ul>
+    <li>📧 メールアドレス：<a href="mailto:yourmail@example.com" class="email">yourmail@example.com</a></li>
+    <li>📱 SNS：
+      <a href="https://twitter.com/yourname" target="_blank" class="sns">Twitter</a> /
+      <a href="https://instagram.com/yourname" target="_blank" class="sns">Instagram</a>
+    </li>
+  </ul>
+</section>
+
+<footer>
+  <p>&copy; 2025 ふじみ All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
