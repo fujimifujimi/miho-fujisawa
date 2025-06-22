@@ -1,0 +1,50 @@
+body {
+  font-family: 'Zen Maru Gothic', sans-serif;
+  background: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0 1rem;
+  line-height: 1.7;
+}
+
+.header {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.profile-photo {
+  width: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.name {
+  font-size: 2rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.voice-sample {
+  margin-top: 1rem;
+}
+
+section {
+  margin: 2rem auto;
+  max-width: 640px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.2rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
